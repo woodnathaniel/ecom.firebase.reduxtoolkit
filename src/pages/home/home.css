@@ -1,0 +1,44 @@
+.hm-banner{
+  width: fit-content;
+  height: fit-content;
+}
+
+.hm-banner img{
+  width: 100%;
+  height: 100%;
+  display: block;
+  border: solid red 1px;
+}
+
+.banner_container{
+  position: relative;
+  border: solid green 2px;
+  padding: 100px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner_header_text{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.banner_header_text_container{
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+  /* position: absolute;
+  top: 50%;
+  left: 0; */
+}
+
+.banner_header_text_container button{
+
+}
+
+.banner_container{
+  display: flex;
+}

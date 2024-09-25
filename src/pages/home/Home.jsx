@@ -9,10 +9,13 @@ export const Home = () => {
           <div style={{
             display: 'flex',
             gap: '70px',
-            }}>
+            border:'solid red 2px',
+            height:'90vh',
+            position: 'relative',
+          }}>
             <div className='banner_header_text_container'>
               <div className='banner_header_text'>
-                <h5>Beat Solo </h5>
+                <h5>Beats Solo</h5>
                 <h2>Wireless</h2>
               </div>
               <div>

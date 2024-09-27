@@ -1,17 +1,27 @@
-import React from 'react'
+import { useEffect } from 'react'
+import { GoogleAuth } from '../../hooks/GooleAuth'
 import './home.css'
 
 export const Home = () => {
+
+
+  useEffect(()=>{
+    GoogleAuth()
+  },[])
+
   return (
     <div>
       <section className='hm-banner'>
         <div className='banner_container'>
           <div style={{
             display: 'flex',
-            gap: '70px',
-            border:'solid red 2px',
+            gap: '700px',
+            // border:'solid red 2px',
             height:'90vh',
             position: 'relative',
+            paddingLeft: '200px',
+            paddingRight: '200px',
+            backgroundColor: '#DCDCDC'
           }}>
             <div className='banner_header_text_container'>
               <div className='banner_header_text'>
@@ -28,6 +38,7 @@ export const Home = () => {
           </div>
         
         </div>
+        
       </section>
     </div>
   )

@@ -3,9 +3,9 @@ import './nav.css'
 import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 
-const Navbar = () => {
+const Navbar = ({register}) => {
   return (
-    <div >
+    <div>
       <div className='navBar'>
         <div className='navbarLogo'>
         <svg width="80" height="30" viewBox="0 0 105 19" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -24,8 +24,8 @@ const Navbar = () => {
         </div>
 
         <div className='navLinks'>
-          <NavLink  to="/"  >Home</NavLink>
-          <NavLink to="/shop" >Shop</NavLink>
+          <NavLink  to="/" >Home</NavLink>
+          <NavLink to="/shop">Shop</NavLink>
           <NavLink to="/about-us">About Us</NavLink>
           <NavLink to="/contact-us">Contact Us</NavLink>
         </div>

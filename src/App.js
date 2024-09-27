@@ -12,26 +12,26 @@ import './App.css';
 
 function App() {
 
-  useEffect(()=>  {
-     function fetchProucts (){
-      // try {
-      //   const data = await axios.get('https://fakestoreapi.com/products')
-      //   console.log(data);
-      // } catch (error) {
-      //   console.log(error);
-      // }
-      const data = axios.get('https://fakestoreapi.com/products')
-      .then((res) =>{
-        console.log(res);
+  // useEffect(()=>  {
+  //    function fetchProucts (){
+  //     // try {
+  //     //   const data = await axios.get('https://fakestoreapi.com/products')
+  //     //   console.log(data);
+  //     // } catch (error) {
+  //     //   console.log(error);
+  //     // }
+  //     const data = axios.get('https://fakestoreapi.com/products')
+  //     .then((res) =>{
+  //       console.log(res);
         
-      })
-      .catch((err)=>{
-        console.log(err);
-      })
-    }
-    fetchProucts()
+  //     })
+  //     .catch((err)=>{
+  //       console.log(err);
+  //     })
+  //   }
+  //   fetchProucts()
     
-  }, [])
+  // }, [])
 
 
 

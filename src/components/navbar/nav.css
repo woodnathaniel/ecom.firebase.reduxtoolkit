@@ -15,11 +15,13 @@ svg{
 }
 .active{
   font-weight: 500;
+  color: black;
 }
 
 .navLinks a{
  font-size: 18px;
  color: rgb(75, 75, 75);
+ font-family: 'Poppis', sans-serif;
 }
 
 
@@ -46,11 +48,11 @@ svg{
   color: rgb(255, 255, 255);
   position: absolute;
   top: 0;
-  right: 0px;
+  right: 0;
   background-color: red;
   font-size: 10px;
   width: 10px;
   height: 10px;
   border-radius: 100%;
-  padding: 2px;
+  /* padding: 2px; */
 }
